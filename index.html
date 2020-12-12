@@ -2,32 +2,54 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<link href="css/main.css" rel="stylesheet" type="text/css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Olympic Data Analysis</title>
+		<title>Canada vs USA DataViz</title>
 	</head>
 		<body>
-			<main class="wrapper">
-			<h1 class="hidden"></h1>
-			<h2>My Awesome Data Analysis</h2>
-			<p></p>
-
-			<section class="argument">
-				<h2 class="hidden">Data Point 1</h2>
-				<h2 class="subhead">LR > TCD</h2>
-				<p></p>
+			<div class="wrapper">
+			<section class="header">
+			<h2 class="header1">Who's superior in the Winter Olympics?</h2>
+			<h2 class="header1">Canada or the United States?</h2>
+			<p>In the Winter Olympics there are two big forces when it comes to the hardware. The USA reigns as champion with the most medals at 653, Canada has by far the most gold medals at 315, and is not far behind in overall medal count at 625. But the question is, who is the true champion of the Winter Olympics?</p>
 			</section>
 
-			<section class="argument">
-				<h2 class="hidden">Data Point 2</h2>
-				<h2 class="subhead">IYRTITL > NWTS</h2>
-				<p></p>
+			<section class="point1">
+				<h2 class="subhead">Overall Medals: Who truely has the better trophy case?</h2>
+				<p>While the USA does have more medals, a small margin, Canada has much more gold medals. The question becomes, how do we formulate this information fairly and effectively?</p>
+				<section class="graph1">
+				<h2 class="hidden">Gold,Silver,Bronze pie charts</h2>
+				<img src="images/AmericaGSB.png" alt="America's medal totals chart" width="600" height="550">
+				<img src="images/CanadaGSB.png" alt="Canada's medal totals chart" width="600" height="550">
+				</section>
+				<p>As you can see Canada's gold can match up with America's silver totals, Silver with Gold, and Bronze with each other. The system I propose, is a point system where each gold medal counts for 3 points, silver for 2, and bronze for 1. With this point system applied America ends up with a score of 1,306 while Canada gets a score of 1,458. If you believe in the idea that medal hierarchy should be applied then Canada is the clear winner.</p>
 			</section>
 
-			<footer>
-				<h1 class="hidden">footer</h1>
-				<h2>STOP SNOOPING</h2>
+			<section class="point2">
+				<h2 class="consistent">Consistency is one of the most important traits of a champion, but how do the US and Canada stack up over the years?</h2>
+				<p>Canada and the US have been involved in the Winter Olympics from the start and have followed a pretty similar trend for the history of the olympics</p>
+				<img class="graph2" src="images/USAvsCAD.png" alt="Winter Olympic history chart, US vs CAD" width="1200" height="600">
+				<p>From this chart I can see it has been very close over the years, while I notice that the US seems to have higher highs and lower lows. Both countries have had dominant years, for the USA 1932, 1972, and 1980 are standouts, as for Canada 1992, 2006, and 2014 are solid years. Also a neat fact that the US has had pretty standout years both times they were hosts at Lake Placid, talk about homefield advantage. This data isn't exactly definitive so I provide you with another list.</p>
+				<img class="graph2" src="images/USAvsCADmedals.png" alt="Winter Olympic history chart, US vs CAD" width="1200" height="600">
+				<p>In this graph again you can see that it is very close. The US has been the top country in the games only once more than Canada, while Canada has been in the top 5 once more than America. Overall these two have only missed the top 5 six and seven times respectively. This is a close battle between the giants.</p>
+			</section>
+
+			<section class="point3">
+				<h2 class="subhead3">Who's Winning?</h2>
+				<h2 class="winner">For the two powerhouse countries where are the medals coming from?</h2>
+				<section class="graph3">
+				<h2 class="hidden">Men & Women pie charts</h2>
+				<img src="images/mencompared.png" alt="America's medal totals chart" width="600" height="450">
+				<img src="images/womencompared.png" alt="Canada's medal totals chart" width="600" height="450">
+				</section>
+				<p>Both of the totals are pretty close with each of the differences being sub 50 medals each. While because of obvious social implications the women are behind the men but both countries show similar percentages and totals, showing no outliers for our comparison.</p>
+			</section>
+
+			<footer class="ending">
+				<h2 class="subhead4">Overall who claims the throne?</h2>
+				<p>While America claims the most tournament wins and an overall higher medal count I think the #1 spot should go to someone with the most #1 spots. Canada has the most gold medals in the tournament, and the margins that America leads in aren't as large as the gold medal gap which is why I believe that Canada should own the throne, however either answer is acceptable as it is a great battle.</p>
 			</footer>
-			</main>
+			</div>
 		</body>
 </html>
 
